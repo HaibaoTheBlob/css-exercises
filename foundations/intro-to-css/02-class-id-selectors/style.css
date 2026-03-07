@@ -1,1 +1,24 @@
 /* Add CSS Styling */
+/* Class selectors */
+.ima-class, 
+.cool-class{
+    color: black;
+    background-color: rgb(250, 144, 164);
+    font-family: "Verdana", "DejaVuSans", sans-serif;
+}
+
+.cool-class{
+    font-size: 24px;
+}
+
+/* ID selectors*/
+#first-ID{
+    color: blue;
+    font-size: 36px;
+}
+
+#nuther-ID{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
