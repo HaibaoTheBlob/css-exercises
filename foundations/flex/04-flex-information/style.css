@@ -12,6 +12,14 @@ img {
   font-weight: 900;
 }
 
+/* - All items are centered on the page (horizontally, not vertically).
+- The title is centered on the page.
+- There is 32px between the title and the 'items.'
+- There is 52px between each item.
+- The items are arranged horizontally on the page.
+- The items are only 200px wide and the text wraps.
+- The item text is centered. */
+
 /* do not edit this footer */
 .footer {
   position: fixed;
@@ -24,3 +32,31 @@ img {
   justify-content: center;
   background: #eee;
 }
+/*My declarations*/
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+ul{
+  display: flex;
+  margin: 32px 0px;
+  gap: 52px;
+  justify-content: center;
+}
+
+li{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: content-box;
+  width: 200px;
+}
+
+div{
+  display: flex;
+  align-self: center;
+}
+
+
