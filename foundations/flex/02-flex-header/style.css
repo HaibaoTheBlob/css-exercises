@@ -1,11 +1,7 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 8px;
+ 
 }
 
 .logo {
@@ -18,12 +14,7 @@
 
 ul {
   /* this removes the dots on the list items*/
-  display: flex;
-  flex-direction: row;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  gap: 8px;
 }
 
 a {
@@ -34,4 +25,21 @@ a {
   text-decoration: none;
 }
 
+/* My declarations */
 
+.header{
+  padding: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
