@@ -39,13 +39,13 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between; 
+  text-align: center;
 }
 
 .content{
   display: flex;
   flex-direction: column;
   align-self: center;
-  align-items: center;
   gap: 16px;
 }
 
@@ -59,15 +59,11 @@ body{
   background: #eeeeee;
 }
 
-.left-links, .right-links{
+ul{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 32px; 
-}
-
-ul{
-  flex-direction: row;
   list-style-type: none;
 }
 

@@ -19,11 +19,72 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+/* My Declarations */
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.body{
+  display: flex;
+  flex: 1; /*sets flex grow, shrink, and basis to 1, 1, 0%.
+  That is, content will grow and shrink to fill up all space,
+  with basis=0% meaning "ignore original content size"*/
+}
+
+.sidebar{
+  min-width: 300px;
+  padding: 0px;
+}
+
+.card-array{ 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding: 48px;
+}
+
+.card{
+  padding: 16px;
+  max-width: 300px; 
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 900;
+  padding: 0px 16px;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style-type: none;
+  margin: 0; /*CSS should default margin to 0. But Chrome might not, 
+  so you need this line if you want to set margin to 0!*/
+  padding: 16px;
 }
