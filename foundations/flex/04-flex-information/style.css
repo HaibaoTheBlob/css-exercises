@@ -36,27 +36,31 @@ img {
 body {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 ul{
   display: flex;
+  justify-content: center;
+
   margin: 32px 0px;
   gap: 52px;
-  justify-content: center;
 }
 
 li{
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
   align-items: center;
-  box-sizing: content-box;
-  width: 200px;
+
+  /* box-sizing: content-box;
+  width: 200px; */
+  max-width: 200px;
 }
 
-div{
+/* div{
   display: flex;
   align-self: center;
-}
+} */
 
 
